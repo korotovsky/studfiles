@@ -1,0 +1,95 @@
+div.error {
+    margin-left: -20px !important;
+}
+div.errorMessage {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+div.validating > input {
+    background-image: url(../images/validating.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+
+label {
+    margin-right: 10px;
+}
+
+div.overlay-main {
+
+}
+div.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 100;
+    float: left;
+    filter: alpha(opacity=25);
+    -moz-opacity:.25;
+    opacity:.25;"
+}
+div.ov-loading {
+    text-align: center;
+    width: 200px;
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 40%;
+    background-color: #222;
+    filter: alpha(opacity=80);
+    -moz-opacity:.80;
+    opacity:.80;
+}
+div.ov-loading > span {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+div.overlay-hide {
+    display: none !important;
+}
+div.closed {
+    display: none !important;
+}
+
+/* ------------------------------------------- */
+div.page-content { margin: 20px; }
+div.page-content hr { margin-bottom: 15px }
+
+div.comments { margin-left: 0px }
+div.form { margin-left: 20px }
+
+div.comment-body { margin-bottom: 15px; }
+div.comment-header { width: 100% }
+div.comment-ufo h4 { color: grey }
+
+a.reply-main-link { display: none; margin-left: 20px }
+
+div.clear { clear: both }
+div.h20 { height: 20px }
+div.h10 { height: 10px }
+
+/* WARNING! Имена классов относящиеся к голосованию не изменять */
+.comments-buttons a { margin-top:-12px; margin-left: 3px; float: right; width:13px; height:13px; font-size:0; cursor:pointer; }
+.comments-buttons a { background:url(images/icons_vote.png) no-repeat }
+.comments-buttons span.comment-mark { float: right; margin-top: -14px; margin-right: 10px; font-weight: bold; }
+.comments-buttons a.vote-up { margin-left:5px; background-position: -13px 0; }
+.comments-buttons a.vote-up:hover { background-position:-13px -13px ; }
+.comments-buttons a.vote-down { background-position:0 0; }
+.comments-buttons a.vote-down:hover { background-position:0 -13px; }
+
+a.vote-up.mine,
+a.vote-up.expired,
+a.vote-up.no_auth,
+a.vote-up.voted { background-position:-13px -39px !important; cursor:default; }
+
+a.vote-down.mine,
+a.vote-down.expired,
+a.vote-down.no_auth,
+a.vote-down.voted { background-position:0 -39px !important; cursor:default; }
+
+a.vote-up.voted-up { background-position:-13px -26px !important; cursor:default;}
+a.vote-down.voted-down { background-position:0 -26px !important; cursor:default;}
+/* Все. Дальше можно менять */
+
+div.row textarea { width: 630px; height: 50px; margin: 2px; }
